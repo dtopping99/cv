@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="TCStyle.css">
+		<title>Very Simple Tip Calculator</title>
+    </head>
+	<body>
+	<div id = "container">
+		<h1>Tip Calculator</h1>
+		<div id = "calculator">
+			<p> -How much was your bill?</p>
+			<p> $<input id = "billamount" type = "text" placeholder = "Bill Amount">
+			</br></p>
+			<p> -How was your service?</p>
+			<select id = "servicequality">
+				<option disabled selected value = "0">--Choose an option--</option>
+				<option value = "0.25"> 25% - Excellent </option>
+				<option value = "0.20"> 20% - Good </option>
+				<option value = "0.18"> 18% - Fair </option>
+			</select>
+			</br>
+			<button id = "calculate">CALCULATE</button>
+			<p>Bill Total: </p>
+				<div id = "billtotal"></div>
+			<p>Tip: </p>
+				<div id = "billtip"></div>
+			<p>Bill Total Plus Tip: </p>
+				<div id = "billtotalplustip"></div>
+		</div>
+	</div>
+	<script src="app.js"></script>
+	</body>
+</html>

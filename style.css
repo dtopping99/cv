@@ -1,0 +1,297 @@
+body {
+  position: relative;
+  background-image: url('batman.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Open Sans';
+}
+a:hover {
+  text-decoration: none;
+}
+.header, .section-title, .main-page-hr, .quote, .testimonials, .projects-title, .bottom-container, .abilities-subtitle {
+  text-align: center;
+}
+.main-title, .heading-hr, .my-title, .middle-container1, .projects-container, .bottom-container, .social-link:hover, .copyright {
+  color: #fff;
+}
+.middle-container1, .middle-container1a, .testimonials, .projects-container {
+  background-color: #756e64;
+}
+.top-container, .middle-container2 {
+  background-color: #fff;
+}
+.heading-hr, .main-page-hr, .projects:hover {
+  opacity: 0.5;
+}
+.row, .copyright {
+  margin: 0;
+}
+.navbar {
+  width: 200px;
+}
+.aboutme1 {
+  margin-top: 20%;
+}
+.quote {
+  font-size: 150%;
+  text-align: center;
+}
+.quote-light {
+  color: #737272;
+}
+.quote-dark {
+  color: #fff;
+  opacity: 0.7;
+}
+.btn {
+  margin: 4% 0 4% 0;
+  color: #48d9d4;
+  transition: 1s;
+  opacity: 0.85;
+}
+.btn:hover {
+  color: #7dfffa;
+  background-color: #000;
+  opacity: 1;
+}
+.header {
+  font-family: 'Kalam';
+  padding-top: 40%;
+  vertical-align: middle;
+}
+.main-title {
+  font-weight: 400;
+  font-size: 500%;
+}
+.heading-hr {
+  border-top: 1px solid;
+  width: 40%;
+}
+.my-title {
+  font-weight: 100;
+  padding-top: 5%;
+}
+.top-container {
+  margin-top: 60%;
+}
+.subtitle, .am-subtitle {
+  font-weight:700;
+}
+.section-title {
+  font-weight: 400;
+  font-size: 300%;
+  padding: 5% 0 1% 0;
+}
+.main-page-hr {
+  border-top: 2px solid;
+  width: 20%;
+}
+.couple {
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  padding: 0;
+}
+.aboutme {
+  padding-left: 8%;
+}
+.subtitle {
+  text-align: left;
+  color: #48d9d4;
+}
+.about-me-text {
+  padding: 5% 0;
+}
+.middle-container1 {
+  padding: 0 10% 5% 10%;
+}
+.middle-container2 {
+  color: #000;
+  padding-bottom: 5%;
+}
+.no-bullets {
+  list-style-type: none;
+  padding: 0;
+}
+.testimonials {
+  padding-left: 10%;
+  color: #ffedbd;
+  height: 250px;
+}
+.ability-title, .ability-score {
+  font-size: 15px;
+}
+.ability-score {
+  text-align: left;
+}
+.projects-container {
+  text-align: left;
+}
+.challenge-title, .tags {
+  color: #48d9d4;
+}
+.projects {
+  padding: 5% 0;
+}
+.figcaption {
+  position: absolute;
+  display: block;
+}
+.bottom-container {
+  background-color: #434242;
+}
+.social-link {
+  color: #737272;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  transition: 0.3s;
+}
+.social-link:hover {
+  text-decoration: none;
+}
+.social-text {
+  font-size: 16px;
+  vertical-align: middle;
+  font-weight: 500;
+}
+.copyright {
+  opacity: 0.7;
+  padding: 1%;
+}
+@media (max-width: 575px) {
+  .header {
+    padding-left: 10%;
+  }
+  .main-title {
+    font-size: 300%;
+  }
+  .my-title {
+    font-size: 1rem;
+  }
+  .aboutme {
+    margin-left: 25%;
+  }
+  .quote {
+    font-size: 100%;
+    padding-left: 15%;
+  }
+  .col {
+    width: 300px;
+  }
+  .couple {
+    margin-left: 15%;
+  }
+  .details, .about-me-text {
+    margin-left: 25%;
+    padding: 0 5% 2% 8%;
+  }
+  .experience, .abilities, .projects-title, .contact-title {
+    font-size: 205%;
+  }
+  .experience-list {
+    padding: 0 0 5% 2%;
+    margin-left: 25%;
+  }
+  .testimonials {
+    text-align: center;
+    height: 365px;
+  }
+  .testimonial-text {
+    padding-left: 23%;
+    padding-right: 40%;
+  }
+  .abilities-subtitle {
+    text-align: center;
+  }
+  .abilities-list {
+    width: 215px;
+    padding: 0;
+  }
+  .abilities-list-left {
+    margin-left: 33%;
+  }
+  .abilities-list-right {
+    width: 107px;
+  }
+  .project-list {
+    padding-left: 35%;
+  }
+  .copyright {
+    font-size: 13px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .main-title {
+    font-size: 300%;
+  }
+  .aboutme, .details, .about-me-text, .experience-list {
+    padding: 0 10% 0 28%;
+  }
+  .quote {
+    font-size: 115%;
+  }
+  .testimonial-text {
+    padding-left: 21%;
+  }
+  .testimonials {
+    padding-right: 0;
+  }
+  .abilities-subtitle {
+    text-align: center;
+  }
+  .abilities-list {
+    width: 230px;
+    padding: 0;
+  }
+  .abilities-list-left {
+    margin-left: 30%;
+  }
+  .abilities-list-right {
+    width: 120px;
+  }
+  .project-list {
+    padding-left: 30%;
+  }
+}
+@media (min-width: 700px) and (max-width: 767px) {
+  .testimonial-text {
+    padding-left: 10%;
+  }
+  .experience-list {
+    padding: 0 5% 0 14%;
+  }
+}
+@media (min-width: 768px) and (max-width: 850px) {
+  .spacer {
+    display: none;
+  }
+  .aboutme {
+    padding-right: 0;
+    margin-left: 13%;
+  }
+  .quote {
+    padding: 0 10% 0 20%;
+  }
+  .couple {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    padding: 0;
+  }
+  .about-me-text {
+    margin-left: 13%;
+    padding-left: 60px;
+  }
+  .middle-container1 {
+    padding-right: 5%;
+  }
+  .experience-list {
+    padding-left: 5%;
+  }
+}
+@media (min-width: 851px) {
+  .quote {
+    font-size: 120%;
+  }
+}

@@ -1,0 +1,35 @@
+#container {
+	height: 480px;
+	width: 360px;
+	margin: 10px 50px auto;
+	background: #f7f7f7;
+	border-radius: 20px;
+}
+h1 {
+	background: #1F030C;
+	color: #CFCFCF;
+	margin: 0px;
+	padding: 10px 120px;
+	font-size: 18px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+#calculator {
+	margin-left: 10%;
+}
+#billamount {
+	width: 100px;
+}
+#calculate {
+	margin-top: 20px;
+	color: #FFFFFF;
+	background-color: #EB6B13;
+	width: 150px;
+	height: 30px;
+	font-size: 17px;
+}
+#billtotal, #billtip, #billtotalplustip {
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
